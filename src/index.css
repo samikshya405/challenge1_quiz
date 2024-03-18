@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Roboto-bold;
+  src: url('./assets/fonts/Roboto-Bold.ttf') ;
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url('./assets/fonts/Roboto-Regular.ttf');
+}
+
+
+:root{
+  --purple:#a929f9;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  font-family: Roboto-Regular;
+}
+
+
+.a{
+  text-decoration: none;
+  color: inherit;
+}
+.nextBtn{
+  background-color: var(--purple) !important;
+  border: none !important;
+  padding: 10px 0px !important;
+  margin-top: 20px;
+}
